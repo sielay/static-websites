@@ -1,7 +1,7 @@
-import StaticImage from "../../public/shoudyou.png";
 import Image from "next/image";
 import { Card } from "ui";
 import { Noticia_Text } from "next/font/google";
+import StaticImage from "../../public/shoudyou.png";
 
 const noticaText = Noticia_Text({ weight: "700", subsets: ["latin"] });
 
@@ -68,27 +68,27 @@ export default function Page(): JSX.Element {
       <section className="flex flex-col items-center justify-between text-lg md:text-base px-8 lg:px-24 pt-0">
         <p className="text-justify pb-4 lg:max-w-5xl lg:w-full">
           Embark on the dynamic world of software development with seasoned
-          expert Łukasz Marek Sielski in "Should You Become a Software
-          Developer?" Sielski, with over two decades of experience, demystifies
-          a developer's life beyond coding, offering insights for success.
+          expert Łukasz Marek Sielski in &quot;Should You Become a Software
+          Developer?&quot; Sielski, with over two decades of experience, demystifies
+          a developer&apos;s life beyond coding, offering insights for success.
         </p>
         <p className="text-justify pb-4 lg:max-w-5xl lg:w-full">
-          Whether you're considering a career shift or want to understand the
+          Whether you&apos;re considering a career shift or want to understand the
           developer world, this book is your invaluable companion. Sielski
           provides a roadmap, helping you navigate the competitive terrain,
           overcome obstacles, and make informed decisions.
         </p>
         <p className="text-justify pb-4 lg:max-w-5xl lg:w-full">
           Explore types of developers, potential earnings, and the impact of
-          your choices. In "My Story," Sielski shares his journey from a
+          your choices. In &quot;My Story,&quot; Sielski shares his journey from a
           self-taught coder to Head of Software Development.
         </p>
         <p className="text-justify pb-4 lg:max-w-5xl lg:w-full">
-          "Path" guides you to secure your first job, "Work" delves into
-          technical intricacies, and "Environment" prepares you for industry
+          &quot;Path&quot; guides you to secure your first job, &quot;Work&quot; delves into
+          technical intricacies, and &quot;Environment&quot; prepares you for industry
           realities. Addressing issues like imposter syndrome and burnout, this
           book is a mentor and guide to unlocking your potential in software
-          development. Whether novice or insider, it's your key to success.
+          development. Whether novice or insider, it&apos;s your key to success.
         </p>
       </section>
 
