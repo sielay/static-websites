@@ -1,9 +1,9 @@
 import Image from "next/image";
 import { Card } from "ui";
-import { Noticia_Text } from "next/font/google";
+import { Noticia_Text as NoticiaText } from "next/font/google";
 import StaticImage from "../../public/shoudyou.png";
 
-const noticaText = Noticia_Text({ weight: "700", subsets: ["latin"] });
+const noticaText = NoticiaText({ weight: "700", subsets: ["latin"] });
 
 const LINKS = [
   {
