@@ -11,7 +11,7 @@ const LINKS = [
     href: "https://www.amazon.com/dp/B0B2CGTMVY",
     description:
       "Buy Should You Become a Software Developer as e-book on Amazon",
-  },
+  },  
   {
     title: "Hardcover on Amazon.com",
     href: "https://www.amazon.com/Should-you-Become-Software-Developer/dp/B0B3N27GV5",
@@ -40,7 +40,7 @@ export default function Page(): JSX.Element {
       paragraphs={[
         <>
           Embark on a compelling journey into the IT trade with seasoned expert
-          Łukasz Marek Sielski in &quot;Should You Join the IT Trade?&quot; Sielski, with
+          Łukasz Marek Sielski in &quot;Should You Become a Software Developer?&quot; Sielski, with
           over two decades of experience, demystifies the life of an IT
           professional, offering crucial insights for success.
         </>,
