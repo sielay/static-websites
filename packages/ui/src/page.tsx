@@ -33,7 +33,7 @@ export function PageLayout({
       </header>
       <section>
         <div className="ui-relative ui-flex ui-flex-col ui-items-center ui-justify-between lg:ui-px-24 ui-pb-0">
-          <div className="ui-font-sans ui-w-auto ui-pt-[48px] ui-pl-8 md:ui-pt-16 lg:ui-pt-0 ui-flex ui-justify-between ui-gap-8 ui-items-center ui-flex-col ui-relative ui-z-0">
+          <div className="ui-font-sans ui-w-auto ui-pt-[48px] md:ui-pt-16 lg:ui-pt-0 ui-flex ui-justify-between ui-gap-8 ui-items-center ui-flex-col ui-relative ui-z-0">
             <div className="ui-z-50 ui-flex ui-flex-col ui-items-center ui-justify-center ui-gap-5 ui-px-0 ui-text-center lg:ui-gap-6 ui-mb-6">
               {image}
             </div>
@@ -62,7 +62,7 @@ export function PageLayout({
         ))}
       </section>
 
-      <section className="ui-flex md:ui-hidden ui-flex-col ui-items-center ui-justify-between ui-px-24 ui-pt-0">
+      <section className="ui-flex md:ui-hidden ui-flex-col ui-items-center ui-justify-between md:ui-px-24 ui-pt-0">
         <div className="ui-grid ui-text-center lg:ui-max-w-5xl lg:ui-w-full lg:ui-mb-0 lg:ui-grid-cols-4 lg:ui-text-left ui-pb-8">
           {links.map(({ title, href, description }) => (
             <Card href={href} key={title} title={title}>

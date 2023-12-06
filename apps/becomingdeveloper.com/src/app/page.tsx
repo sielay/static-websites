@@ -70,11 +70,11 @@ export default function Page(): JSX.Element {
       image={
         <Image
           src={StaticImage}
-          alt="Should You Become a Software Developer?: A book you should read before you decide to learn to code - Łukasz Marek Sieslki"
+          alt="Should You Become a Software Developer?: A book you should read before you decide to learn to code - Łukasz Marek Sielski"
           width={400}
         />
       }
-      copyright={<>BecomingDeveloper.com &copy; 2001 - 2003 Sielay Ltd</>}
+      copyright={<>BecomingDeveloper.com &copy; 2021 - 2023 Sielay Ltd</>}
     />
   );
 }

@@ -75,13 +75,13 @@ export default function Page(): JSX.Element {
       image={
         <Image
           src={StaticImage}
-          alt="Record Retreat Report - Łukasz Marek Sieslki"
+          alt="Record Retreat Report - Łukasz Marek Sielski"
           width={400}
         />
       }
       copyright={
         <>
-          RecordRetreatReport.co.uk &copy; 2003 Sielay Ltd (site/merchandise) /
+          RecordRetreatReport.co.uk &copy; 2023 Sielay Ltd (site/merchandise) /
           Łukasz Marek Sielski (book) / PhoneKills (social profiles)
         </>
       }
