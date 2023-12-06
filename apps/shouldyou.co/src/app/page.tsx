@@ -7,23 +7,22 @@ const noticaText = NoticaText({ weight: "700", subsets: ["latin"] });
 
 const LINKS = [
   {
+    title: "Follow the author on TikTok",
+    href: "https://www.tiktok.com/@shouldyoubecomedeveloper",
+    description: "Join 1K+ followers on the most engaging social platform",
+  },
+  {
+    title: "Follow the author on Twitter/X",
+    href: "https://www.twitter.com/coderebased",
+    description: "Follow on the most dividing social platform",
+  },
+  {
     title: "E-book on Amazon.com",
     href: "https://www.amazon.com/dp/B0B2CGTMVY",
     description:
       "Buy Should You Become a Software Developer as e-book on Amazon",
   },
-  {
-    title: "Hardcover on Amazon.com",
-    href: "https://www.amazon.com/Should-you-Become-Software-Developer/dp/B0B3N27GV5",
-    description:
-      "Buy Should You Become a Software Developer as hardcover on Amazon",
-  },
-  {
-    title: "Paperback on Amazon.com",
-    href: "https://www.amazon.com/Should-you-Become-Software-Developer/dp/B0B3LP8Z8M",
-    description:
-      "Buy Should You Become a Software Developer as paperback on Amazon",
-  },
+
   {
     title: "Learn more about the author",
     href: "https://www.sielay.com",
@@ -70,9 +69,10 @@ export default function Page(): JSX.Element {
         <Image
           src={StaticImage}
           alt="Should You Become a Software Developer?: A book you should read before you decide to learn to code - Łukasz Marek Sieslki"
-          width={1200}
+          width={1000}
         />
       }
+      copyright={<>ShouldYou.co &copy; 2001 - 2003 Sielay Ltd</>}
     />
   );
 }

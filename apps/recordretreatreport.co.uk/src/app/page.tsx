@@ -40,9 +40,9 @@ export default function Page(): JSX.Element {
           staggering 15,000 reports of perilous driving from the public. A
           mounting number of individuals, myself included, are turning to
           cameras as a potent weapon in the battle against road crime. Embarking
-          on an odyssey of self-discovery, I delved into the movement&apos;s gripping
-          history, encountering trailblazers, law enforcement mavericks, and
-          high-profile figures fervently championing road safety.
+          on an odyssey of self-discovery, I delved into the movement&apos;s
+          gripping history, encountering trailblazers, law enforcement
+          mavericks, and high-profile figures fervently championing road safety.
         </>,
         <>
           In riveting interviews, I engaged with luminaries such as Jeremy Vine,
@@ -76,8 +76,14 @@ export default function Page(): JSX.Element {
         <Image
           src={StaticImage}
           alt="Record Retreat Report - Łukasz Marek Sieslki"
-          width={1200}
+          width={400}
         />
+      }
+      copyright={
+        <>
+          RecordRetreatReport.co.uk &copy; 2003 Sielay Ltd (site/merchandise) /
+          Łukasz Marek Sielski (book) / PhoneKills (social profiles)
+        </>
       }
     />
   );

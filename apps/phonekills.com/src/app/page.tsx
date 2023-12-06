@@ -66,9 +66,10 @@ export default function Page(): JSX.Element {
         <Image
           src={StaticImage}
           alt="Record Retreat Report - Łukasz Marek Sieslki"
-          width={1200}
+          width={400}
         />
       }
+      copyright={<>PhoneKills.com &copy; 2003 Sielay Ltd (site/merchandise) / Łukasz Marek Sielski (book) / PhoneKills (social profiles)</>}
     />
   );
 }

@@ -13,12 +13,14 @@ export function PageLayout({
   image,
   links,
   paragraphs,
+  copyright,
 }: {
   pageTitle: string;
   headerClass: string;
   image: ReactNode;
   links: Link[];
   paragraphs: ReactNode[];
+  copyright: ReactNode;
 }): JSX.Element {
   return (
     <main>
@@ -32,7 +34,7 @@ export function PageLayout({
       <section>
         <div className="ui-relative ui-flex ui-flex-col ui-items-center ui-justify-between lg:ui-px-24 ui-pb-0">
           <div className="ui-font-sans ui-w-auto ui-pt-[48px] ui-pl-8 md:ui-pt-16 lg:ui-pt-0 ui-flex ui-justify-between ui-gap-8 ui-items-center ui-flex-col ui-relative ui-z-0">
-            <div className="ui-z-50 ui-flex ui-flex-col ui-items-center ui-justify-center ui-gap-5 ui-px-0 ui-text-center lg:ui-gap-6">
+            <div className="ui-z-50 ui-flex ui-flex-col ui-items-center ui-justify-center ui-gap-5 ui-px-0 ui-text-center lg:ui-gap-6 ui-mb-6">
               {image}
             </div>
           </div>
@@ -51,7 +53,10 @@ export function PageLayout({
 
       <section className="ui-flex ui-flex-col ui-items-center ui-justify-between ui-text-lg md:ui-text-base ui-px-8 lg:ui-px-24 ui-pt-0">
         {paragraphs.map((node, index) => (
-          <p className="ui-text-justify ui-pb-4 lg:ui-max-w-5xl lg:ui-w-full" key={index}>
+          <p
+            className="ui-text-justify ui-pb-4 lg:ui-max-w-5xl lg:ui-w-full"
+            key={index}
+          >
             {node}
           </p>
         ))}
@@ -67,9 +72,9 @@ export function PageLayout({
         </div>
       </section>
 
-      <footer className="ui-flex ui-flex-col ui-items-center ui-justify-between ui-text-lg md:ui-text-base px-8 lg:ui-px-24 ui-pt-0">
+      <footer className="ui-flex ui-flex-col ui-items-center ui-justify-between ui-text-lg md:ui-text-base px-8 lg:ui-px-24 ui-pt-0 ui-px-8">
         <p className="ui-text-justify ui-pb-4 lg:ui-max-w-5xl lg:ui-w-full ui-text-sm ui-pt-8 ui-opacity-50">
-          &copy; 2023 SIELAY ltd
+          {copyright}
         </p>
       </footer>
     </main>

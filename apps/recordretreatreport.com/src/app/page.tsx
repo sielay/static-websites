@@ -40,8 +40,9 @@ export default function Page(): JSX.Element {
           15,000 reports of dodgy driving from the public. A growing number of
           folks, myself included, are chucking cameras into the mix to tackle
           road shenanigans. Setting off on a bit of a self-discovery journey, I
-          dived into the movement&apos;s history, catching up with the trailblazers,
-          law enforcement legends, and celebs going all-out for road safety.
+          dived into the movement&apos;s history, catching up with the
+          trailblazers, law enforcement legends, and celebs going all-out for
+          road safety.
         </>,
         <>
           Had a yarn with Jeremy Vine, Andy Cox, Mark Hodson, Mike van Erp, Dave
@@ -72,8 +73,14 @@ export default function Page(): JSX.Element {
         <Image
           src={StaticImage}
           alt="Record Retreat Report - Łukasz Marek Sieslki"
-          width={1200}
+          width={600}
         />
+      }
+      copyright={
+        <>
+          RecordRetreatReport.com &copy; 2003 Sielay Ltd (site/merchandise) /
+          Łukasz Marek Sielski (book) / PhoneKills (social profiles)
+        </>
       }
     />
   );
