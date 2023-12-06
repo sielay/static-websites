@@ -6,9 +6,9 @@ import {  Questrial } from "next/font/google";
 const questrial = Questrial({ weight: "400", subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Piwo Pod Chmurką",
+  title: "Maya Sielska",
   description:
-    "To nie był taki dobry pomysł...",
+    "That's a place for my future website",
 };
 export default function RootLayout({
   children,

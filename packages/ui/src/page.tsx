@@ -24,7 +24,7 @@ export function PageLayout({
 }): JSX.Element {
   return (
     <main>
-      <header className="ui-flex ui-flex-col ui-items-center ui-justify-between ui-px-24 ui-py-12 ui-pb-0">
+      <header className="ui-flex ui-flex-col ui-items-center ui-justify-between md:ui-px-24 ui-py-12 ui-pb-0">
         <h1
           className={`ui-z-10 ui-max-w-5xl ui-w-full ui-items-center ui-justify-between ui-text-3xl ui-text-center lg:ui-flex ${headerClass}`}
         >
