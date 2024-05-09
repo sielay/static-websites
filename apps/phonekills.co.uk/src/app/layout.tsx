@@ -18,8 +18,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={questrial.className}>{children}</body>
+      <script dangerouslySetInnerHTML={{
+                    __html: `document.location.href = "https://phonekills.com";`,
+                }}></script>
     </html>
   );
 }
-
-document.location.href = "https://phonekill.com";
