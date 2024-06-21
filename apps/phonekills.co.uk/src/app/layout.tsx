@@ -1,7 +1,7 @@
 import "./globals.css";
-import "ui/styles.css"
+import "ui/styles.css";
 import type { Metadata } from "next";
-import {  Questrial } from "next/font/google";
+import { Questrial } from "next/font/google";
 
 const questrial = Questrial({ weight: "400", subsets: ["latin"] });
 
@@ -18,9 +18,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={questrial.className}>{children}</body>
-      <script dangerouslySetInnerHTML={{
-                    __html: `document.location.href = "https://phonekills.com";`,
-                }}></script>
+      <script
+        dangerouslySetInnerHTML={{
+          __html: `setTimeout(function() { document.location.href = "https://phonekills.com"; }, 5000);`,
+        }}
+      />
     </html>
   );
 }

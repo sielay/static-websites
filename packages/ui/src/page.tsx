@@ -73,7 +73,7 @@ export function PageLayout({
       </section>
 
       <footer className="ui-flex ui-flex-col ui-items-center ui-justify-between ui-text-lg md:ui-text-base px-8 lg:ui-px-24 ui-pt-0 ui-px-8">
-        <p className="ui-text-justify ui-pb-4 lg:ui-max-w-5xl lg:ui-w-full ui-text-sm ui-pt-8 ui-opacity-50">
+        <p className="ui-text-justify ui-pb-4 lg:ui-max-w-5xl lg:ui-w-full ui-text-xs ui-pt-8 ui-opacity-50">
           {copyright}
         </p>
       </footer>
